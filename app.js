@@ -1,3 +1,5 @@
-var koala = G$('Lido', 'Fernandez');
-console.log(koala);
-koala.greet().setLang('es').greet(true);
+$('#login').click(function() {
+  var loginGrtr = G$('John', 'Doe');
+  $('#loginContainer').hide();
+  loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting', true).log();
+});
